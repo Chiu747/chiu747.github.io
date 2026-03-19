@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOME</title>
+
+<style>
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 30px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+button {
+  font-size: 28px;
+  height: 160px;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  color: black;
+}
+
+.call { background: #ff6666; }
+.music { background: #66cc66; }
+.youtube { background: #ff3333; }
+.comedy { background: #66aaff; }
+</style>
+</head>
+
+<body>
+
+<h1>HOME</h1>
+
+<div class="grid">
+  <button class="call" onclick="location.href='PHONE.html'">
+    1 CALL FAMILY
+  </button>
+
+  <button class="music" onclick="location.href='music.html'">
+    2 MUSIC
+  </button>
+
+  <button class="youtube" onclick="location.href='https://www.youtube.com'">
+    3 YOUTUBE
+  </button>
+
+  <button class="comedy" onclick="location.href='https://www.youtube.com/results?search_query=Chinese+comedy'">
+    4 COMEDY
+  </button>
+</div>
+
+</body>
+</html>
